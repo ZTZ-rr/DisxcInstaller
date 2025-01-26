@@ -6,5 +6,6 @@ echo Téléchargement terminé.
 echo Installation de Discord...
 start /wait %temp%\DiscordSetup.exe
 echo Installation terminée.
-
+cls
+echo Merci D'avoir Installer Disxc
 pause
