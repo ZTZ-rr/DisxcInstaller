@@ -12,4 +12,6 @@ Else
     MsgBox "Le fichier " & installBatch & " n'a pas été trouvé. Assurez-vous qu'il est dans le même répertoire que ce script.", 16, "Erreur"
 End If
 
-MsgBox "L'installation de Disxc est terminée. Cliquez sur OK pour fermer cet assistant.", 64, "Installation de Discord"
+MsgBox "L'installation de Disxc est terminée. Cliquez sur OK pour fermer cet assistant.", 64, "Installation de Disxc"
+
+MsgBox "https://github.com/ZTZ-rr", 64, "Disxc Creator"
