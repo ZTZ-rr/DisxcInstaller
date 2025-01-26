@@ -2,9 +2,9 @@ Set objShell = CreateObject("WScript.Shell")
 Set objFSO = CreateObject("Scripting.FileSystemObject")
 installBatch = objFSO.GetAbsolutePathName("install_discord.bat")
 
-MsgBox "https://github.com/ZTZ-rr", 64, ""
+MsgBox "https://github.com/ZTZ-rr", 64, "Disxc Creator"
 
-MsgBox "Bienvenue dans l'assistant d'installation de Disxc! Cliquez sur OK pour Installer.", 64, "Installation de Discord"
+MsgBox "Bienvenue dans l'assistant d'installation de Disxc! Cliquez sur OK pour Installer.", 64, "Installation de Disx"
 
 If objFSO.FileExists(installBatch) Then
     objShell.Run "cmd /c " & installBatch, 1, True
